@@ -2,6 +2,7 @@
 using namespace std;
 
 // array insert at Kth position;
+// array sorting (bubble sort)
 // array linear search;
 // array binary search;
 // array Kth position delation;
@@ -40,14 +41,26 @@ void linearSearch(int* arr, int &used_size, int data){
 	for(int i=0; i<used_size; i++){
 		
 		if(arr[i] == data){
-			cout<<data<<" Data Match..!"<<endl;
+			cout<<data<<" Data Matched..!"<<endl;
 			return ;
 		}
 	}
 
-	cout<<data<<" Data Not Match..!"<<endl;
+	cout<<data<<" Data did Not Match..!"<<endl;
 }
 
+void bubbleSort(int* arr, int &used_size){
+	int a = used_size;
+
+	for(int i=0; i<a; i++){
+
+		for(int j=0; j<a-i-1; j++){
+			if(arr[j] > arr[j+1]){
+				swap(arr[j], arr[j+1]);
+			}
+		}
+	}
+}
 
 void binarySearch(int* arr, int &used_size, int &data){
 	int low, mid, high;
@@ -58,11 +71,11 @@ void binarySearch(int* arr, int &used_size, int &data){
 		mid = (low + high)/2;
 
 		if(arr[mid] == data){
-			cout<<data<<" Data Match..!"<<endl;
+			cout<<data<<" Data Matched..!"<<endl;
 			return ;
 		}
 
-		if(arr[low] < data){
+		if(arr[mid] < data){
 			low = mid + 1;
 		}
 
@@ -70,7 +83,7 @@ void binarySearch(int* arr, int &used_size, int &data){
 			high = mid - 1;
 		}
 	}
-	cout<<data<<" Data Not Match..!"<<endl;
+	cout<<data<<" Data did Not Match..!"<<endl;
 }
 
 
@@ -125,15 +138,22 @@ int main(){
 
 	}
 
+
+	{	cout<<endl<<"Bubble Sort: "<<endl;
+		bubbleSort(Arr, used_size);
+		displayValue(Arr, used_size);
+	}
+
 	{	//linear Search
-		data = 101;
+		cout<<endl;
+		data = 8;
 		linearSearch(Arr, used_size, data);
 
 	}
 
 	
 	{	//binary Search
-		data = 120;
+		data = 1;
 		binarySearch(Arr, used_size, data);
 	}
 
