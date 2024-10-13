@@ -3,19 +3,21 @@ body{
     color: white;
     margin: 0px;
     padding: 0px;
+    background: url("picture/bg1.jpeg");
 }
 
 .main-div{
     width: 100%;
-    height: 680px;
+    /* height: 680px; */
     overflow: hidden;
 }
 
 .header{
-    background-color: #17013f;
+    margin-top: 10px;
     display: flex;
-    /* flex-direction: ; */
-    /* float: right; */
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .header-list{
@@ -23,14 +25,21 @@ body{
     margin-left: auto;
 }
 
-ul > li{
-    margin: 0px, 25px;
+ul  li{
+    margin: 25px, 25px;
     padding: 0px 25px;
     list-style: none;
 }
 
-.main-content{
-    background-color: rgb(6, 0, 20);
+.logo{
+    background-color: #00ffbf;
+    height: auto;
+    width: 135px;
+    margin: -25px 0px 0px 30px;
+
+    background: url("picture/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .name-div{
@@ -38,21 +47,24 @@ ul > li{
 }
 
 .name{
-    background-color: #000e24;
     height: 300px;
-    width: 60%;
+    width: 75%;
     border-radius: 20px;
 
     margin: 25px;
     padding: 0px 25px;
 }
 
-.picture{
-    background-color: #00ffbf;
-    height: 300px;
-    width: 40%;
+span{
+    color: #00ebb0;
+}
 
-    background: url("pic3.png");
+.picture{
+    height: 300px;
+    width: 25%;
+    margin: 20px 40px;
+
+    background: url("picture/nazmul_r2.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -60,49 +72,57 @@ ul > li{
 .info-div{
     width: 100%;
     display: flex;
-    background-color: #0e3000;
+    height: 180px;
 }
 
 .col1{
-    background-color: rgb(0, 14, 24);
     width: 33%;
-    height: 200px;
-
     text-align: center;
 }
 
 h5, h6{
     padding: 0px;
     margin: 0px;
-    color: #00ffbf;
+    color: #e5b73b;
 }
 
 .col2{
-    background-color: rgb(15, 0, 17);
     width: 33%;
-    height: 200px;
-
     text-align: center;
 }
 
 .skill-list>li{
     display: block;
-    color: #ffe600;
-    list-style: disc;
-    
+    color: #7cfc00; 
 }
 
 .col3{
-    background-color: rgb(14, 7, 0);
     width: 33%;
-    height: 200px;
-
     text-align: center;
 }
 
 .contact-list>li{
     display: block;
-    color: #00ff73;
-    list-style: disc;
+    color: #40e0d0;
+}
+
+.social-buttons{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.social-button img{
+    width: 50%;
+    height: auto;
 }
 
