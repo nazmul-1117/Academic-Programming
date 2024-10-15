@@ -1,5 +1,6 @@
 
 import java.util.*;
+import java.io.*;
 
 // simple undirected graph
 
@@ -13,18 +14,43 @@ class AddEdges{
     private int V;
     private int E;
     
+    private int src;
+    private int dest;
+    private int weight;
+    
+    private Scanner scanner;
+    private File file;
+    
     public AddEdges(int V){
         this.V = V;
         this.E = 0;
     }
     
     public void addEdgeMatrix(GraphMatrix g){
-        g.addEdges(0, 1, 4);
-        g.addEdges(1, 2, 2);
-        g.addEdges(2, 3, 5);
-        g.addEdges(3, 0, 8);
-        g.addEdges(2, 4, 7);
+       
+       file = new File("Graph.txt");
         
+        try {
+            
+            if(file.createNewFile()){
+            System.out.println("File Created");
+            
+            }else{
+                System.out.println("File Exists");
+            }
+            scanner = new Scanner(file);
+            
+            while(scanner.hasNextInt()){
+                String edge = scanner.nextLine();
+                src = (int)edge.charAt(0)-'0';
+                dest = (int)edge.charAt(2)-'0';
+                weight = (int)edge.charAt(4)-'0';
+                
+                g.addEdges(src, dest, weight);
+            }
+        } catch(IOException e) {
+        
+        }  
     }
     
     public void addEdgeList(GraphList g){
