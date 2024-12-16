@@ -1,53 +1,53 @@
 {
-    cars [
-      {
-        sl 1,
-        brand Audi,
-        model R8,
-        year 2023,
-        price 200000
-      },
-      {
-        sl 2,
-        brand BMW,
-        model M5,
-        year 2024,
-        price 150000
-      },
-      {
-        sl 3,
-        brand Bugatti,
-        model Chiron,
-        year 2023,
-        price 3000000
-      },
-      {
-        sl 4,
-        brand McLaren,
-        model 720S,
-        year 2024,
-        price 250000
-      },
-      {
-        sl 5,
-        brand Lamborghini,
-        model Aventador,
-        year 2023,
-        price 500000
-      },
-      {
-        sl 6,
-        brand Nissan,
-        model GTR,
-        year 2024,
-        price 100000
-      },
-      {
-        sl 7,
-        brand Toyota,
-        model Supra,
-        year 2023,
-        price 50000
-      }
-    ]
-  }
+  "cars": [
+    {
+      "sl": 1,
+      "brand": "Audi",
+      "model": "R8",
+      "year": 2023,
+      "price": 200000
+    },
+    {
+      "sl": 2,
+      "brand": "BMW",
+      "model": "M5",
+      "year": 2024,
+      "price": 150000
+    },
+    {
+      "sl": 3,
+      "brand": "Bugatti",
+      "model": "Chiron",
+      "year": 2023,
+      "price": 3000000
+    },
+    {
+      "sl": 4,
+      "brand": "McLaren",
+      "model": "720S",
+      "year": 2024,
+      "price": 250000
+    },
+    {
+      "sl": 5,
+      "brand": "Lamborghini",
+      "model": "Aventador",
+      "year": 2023,
+      "price": 500000
+    },
+    {
+      "sl": 6,
+      "brand": "Nissan",
+      "model": "GTR",
+      "year": 2024,
+      "price": 100000
+    },
+    {
+      "sl": 7,
+      "brand": "Toyota",
+      "model": "Supra",
+      "year": 2023,
+      "price": 50000
+    }
+  ]
+}
