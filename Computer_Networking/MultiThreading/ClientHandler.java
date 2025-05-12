@@ -14,6 +14,10 @@ public class ClientHandler extends Thread {
         this.socket = socket;
     }
 
+    public ClientHandler(DataOutputStream dos2, DataInputStream dis2, Socket socket2, int totalClients) {
+        //TODO Auto-generated constructor stub
+    }
+
     @Override
     public void run(){
         // dos.writeUTF("Hello Nazmul: ");
