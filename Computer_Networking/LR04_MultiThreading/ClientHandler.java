@@ -30,9 +30,6 @@ public class ClientHandler extends Thread{
                     System.out.println("Exit from Server...");
                     break;
                 }
-                
-                // String upperCase = getMessage.toLowerCase();
-                // dos.writeUTF(upperCase);
 
 
                 char operator = '\0';
