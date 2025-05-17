@@ -1,6 +1,6 @@
 # Manchester
 
-bits = [0 0 1 1 0 0];
+bits = [1 0 1 0 0 0 1];
 bitrate = 1;
 n = 1000;
 
