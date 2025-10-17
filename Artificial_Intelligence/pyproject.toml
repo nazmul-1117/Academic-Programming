@@ -1,0 +1,7 @@
+[project]
+name = "artificial-intelligence"
+version = "0.1.0"
+description = "This is my academic/university's programming directories"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
