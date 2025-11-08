@@ -50,7 +50,7 @@
 
 
 
-
+<!-- 
 # Computer Networking | CSE-311 | Sudip Ghoshal
 
 ## Lab Final
@@ -62,4 +62,4 @@
    2. Routing
       1. Static
       2. NAT
-      3. OSPF  
+      3. OSPF   -->
