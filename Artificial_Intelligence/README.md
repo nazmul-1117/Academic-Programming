@@ -14,4 +14,4 @@
  
 
  ## Lab Manuals:
-1. xd
+1. Python basic 1
