@@ -5,7 +5,7 @@
  - Teacher: Abdullah Al Farhad
  - Room: J-108
  - Section: 223_D5
- - Total Lab: xx
+ - Total Lab: 10
  - Manual 11
  - Date: 22/09/2025 - xx/12/2025
  - Times: Monday, 8.30AM - 11.30AM
