@@ -7,7 +7,7 @@
  - Section: 223_D5
  - Total Lab: 10
  - Manual 11
- - Date: 22/09/2025 - xx/12/2025
+ - Date: 22/09/2025 - 28/12/2025
  - Times: Monday, 8.30AM - 11.30AM
  - Green University of Bangladesh Permanent Campus
  - Purbachal American City, Dhaka, Bangladesh
