@@ -1,6 +1,133 @@
-*.exe
-*.class
+# ----------------------------
+# OS Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
 
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
+# ----------------------------
+# Environment / Secrets
+# ----------------------------
+.env
+.env.*
+*.env
+*.local
+
+# ----------------------------
+# VS Code
+# ----------------------------
 .vscode/
+.history/
+
+# ----------------------------
+# Node / JavaScript
+# ----------------------------
+node_modules/
+dist/
+build/
+.cache/
+.next/
+.nuxt/
+coverage/
+*.tsbuildinfo
+
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ----------------------------
+# Jupyter Notebook
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Data Science / ML
+# ----------------------------
+data/
+datasets/
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.model
+
+# Large experiment outputs
+outputs/
+runs/
+mlruns/
+
+# ----------------------------
+# Java
+# ----------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven / Gradle
+target/
+.gradle/
+build/
+
+# ----------------------------
+# Compiled / Binary
+# ----------------------------
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# ----------------------------
+# IDEs
+# ----------------------------
+.idea/
+*.iml
+*.suo
+*.user
+*.swp
+*.swo
+
+# ----------------------------
+# Temporary Files
+# ----------------------------
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ----------------------------
+# Project Specific
+# ----------------------------
 IDPC/
