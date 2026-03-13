@@ -154,6 +154,70 @@ Steps:
 
 ---
 
+
+# 🥇 6. Explainable AI for Loan Approval Prediction
+
+### Project Idea
+
+**“Explainable Machine Learning for Loan Approval Prediction using SHAP and LIME”**
+
+Instead of only predicting approvals, you **explain WHY the model made the decision**.
+
+### Why this is unique
+
+Most ML projects stop at **accuracy**.
+This project focuses on **model interpretability**, which is a big research area.
+
+---
+
+### Dataset
+
+* LendingClub Loan Dataset
+* German Credit Dataset
+
+Features:
+
+* income
+* credit score
+* loan amount
+* employment
+
+---
+
+### Models
+
+* Logistic Regression
+* Random Forest
+* XGBoost
+
+---
+
+### Explainability Tools
+
+* SHAP
+* LIME
+
+Example output:
+
+```
+Prediction: Loan Rejected
+
+Main reasons:
+- Low income
+- High debt ratio
+```
+
+---
+
+### Why professors like it
+
+✔ real-world finance problem
+✔ includes **Explainable AI**
+✔ easy dataset
+✔ strong academic value
+
+---
+
 # ⭐ My Top 3 Recommendations for Your Team
 
 Considering **time + GPU limits**:
