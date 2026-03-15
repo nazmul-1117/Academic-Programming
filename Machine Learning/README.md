@@ -9,7 +9,7 @@ The goal of this directory is to provide a structured collection of machine lear
 ## Course Info
 - Machine Learning Lab
 - Teacher: Md. Shoab Alam
-- Room: k-10x
+- Room: k-108
 - Section: 223_D4
 - Total Lab: 10
 - Manual 11
