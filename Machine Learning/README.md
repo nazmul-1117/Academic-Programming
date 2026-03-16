@@ -12,7 +12,7 @@ The goal of this directory is to provide a structured collection of machine lear
 - Room: k-108
 - Section: 223_D4
 - Total Lab: 10
-- Manual 11
+- Manual 12
 - Date: 22/09/2025 - 28/12/2025
 - Times: Monday, 8.30AM - 11.30AM
 - Green University of Bangladesh Permanent Campus
