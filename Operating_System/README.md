@@ -1,2 +1,3 @@
 # Operating System Lab
-CSE-
+- CSE-310
+- Operating System Lab
